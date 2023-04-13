@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(38, 38, 44);
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.toTop.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+nav {
+  justify-content:left;
+  display: flex;
+  align-items: center;
+  background-color: rgb(43, 43, 44);
+  height: 150px;
+  padding: 30px 0px;
+  width: 100%;
+}
+
+#nav_scroll_to_top {
+  background-color: rgb(43, 43, 44);
+}
+
+#logo_msp {
+  border-radius: 100px;
+  border: 3px solid #61DAFB;
+  width: 75px;
+  height: 75px;
+}
+
+nav > img {
+  background-color: rgb(38, 38, 44);
+  height: 50px;
+  margin: 40px;
+}
+
+nav > h3 {
+  display: flex;
+  justify-content: left;
+  color: #61DAFB;
+  padding-right: 0px;
+  margin-right: 650px;
+  margin-left: 0px;
+  font-weight: 600;
+  font-size: 40px;
+  margin-left: 0px;
+}
+
+a {
+  background-color: rgb(38, 38, 44);
+  color: #61DAFB;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+h1 {
+  color: #61DAFB;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+hr {
+  color: white;
+  margin-bottom: 0px;
+}
+
+br {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+p {
+  color: whitesmoke;
+  font-size: 18px;
+  line-height: 26px;
+  display: flexbox;
+  text-align: left;
+  justify-content: left;
+}
+
+section {
+  margin: 240px;
+  margin-bottom: 300px;
+  line-height: 26px;
+  opacity: 0.63;
+}
+
+section h1 {
+  padding-top: 50px;
+}
+
+section p {
+  height: 100%;
+  padding: 0px;
+}
+
+section a {
+  margin: 0px;
+}
+
+button {
+  display: flexbox;
+  justify-content: left;
+  text-align: left;
+  width: 40px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 50px;
+  background-color: rgb(38, 38, 44);
+  color: #61DAFB;
+}
+
+.to-Top {
+  font-size: 30px;
+}
+
+#sidebar {
+  width: 20%;
+  height: 91.5%;
+  background-color: rgb(34, 32, 32);
+  color: #61DAFB;
+  padding-bottom: 60px;
+  right: 1;
+  opacity: 0.28;
+}
+/*
+img {
+  margin-right: 50px;
+  width: 56%;
+  border: none;
+  float: right;
+}
+*/
+#zoznam_linkov {
+  margin-left: 30px;
+  padding-top: 2px;
+  opacity: 0.99;
+}
+
+h1, h2, h3, p, .zoznam_linkov {
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.background-image {
+  background-image: url("./img/i_5596099.jpg");
+  background-size: 100% 100%;
+  background-image: cover;
+  background-attachment:fixed;
+  height: 100vh;
+}
